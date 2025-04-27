@@ -1,10 +1,7 @@
 import React from "react";
 
-
-
-
 import TrafficLight from './TrafficLight.jsx';
-
+import Coña from './coña.jsx';
 
 //create your first component
 const Home = () => {
@@ -12,6 +9,7 @@ const Home = () => {
 		<div className="text-center">
 			<TrafficLight />
 		</div>
+	
 	);
 };
 
