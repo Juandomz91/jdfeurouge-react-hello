@@ -4,6 +4,7 @@ function TrafficLight() {
   const [color, setColor] = useState("red");
 
   return (
+    <div style={{display:"flex", flexDirection: "column", backgroundColor: "black", width: "10%", margin: "auto" }}>
     <div style={{ display: "flex", flexDirection: "column", alignItems: "center", marginTop: "50px" }}>
       <div 
         onClick={() => setColor("red")}
@@ -41,6 +42,7 @@ function TrafficLight() {
           cursor: "pointer"
         }}
       />
+    </div>
     </div>
   );
 }
